@@ -14,10 +14,10 @@ A RESTful API built with **NestJS** and **PostgreSQL** where service providers (
 
 ## Tech Stack
 
-- NestJS 9
+- NestJS
 - TypeORM + PostgreSQL
 - JWT Authentication (jsonwebtoken)
-- Nodemailer (SMTP email)
+- SendGrid
 - @nestjs/schedule (Cron jobs)
 - Swagger (@nestjs/swagger)
 - Docker + Docker Compose
@@ -33,10 +33,6 @@ npm install
 ### 2. Configure Environment
 
 Copy `.env.example` to `.env` and fill in your values:
-
-```bash
-cp .env.example .env
-```
 
 ### 3. Run with Docker
 
